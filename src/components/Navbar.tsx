@@ -20,12 +20,12 @@ export default function Navbar() {
                 </div>
                 <ul className="flex gap-x-4">
                     <li>
-                        <Link className={`${pathname === '/' ? 'text-white underline' : ''}`} href='/'>
+                        <Link className={`${pathname === '/' ? 'text-secondary underline' : ''}`} href='/'>
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link className={pathname === '/blog' ? 'text-white underline' : ''} href='/blog'>
+                        <Link className={pathname === '/blog' ? 'text-secondary underline' : ''} href='/blog'>
                             Blog
                         </Link>
                     </li>
