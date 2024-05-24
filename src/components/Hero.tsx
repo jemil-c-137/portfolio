@@ -1,9 +1,5 @@
 import Image from "next/image";
 import MyPic from '../../public/sticker.webp';
-import EmailLogo from '../../public/mail.svg';
-import LocationLogo from '../../public/location.svg';
-import LinkedIn from '../../public/linkedin-3.svg';
-import GitHubLogo from '../../public/github-mark.svg';
 
 export default function Hero() {
     return <section className="mt-16">
